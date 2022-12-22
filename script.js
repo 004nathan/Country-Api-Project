@@ -29,7 +29,7 @@ const WhereAmI = function( latitude,longitude){
       console.log("Api calling finished")
     })
   }
-  WhereAmI(52.508, 13.381);
+  WhereAmI(-33.933, 18.474);
   console.log("Hi")
 
   function renderHtmlPage(data,country){
